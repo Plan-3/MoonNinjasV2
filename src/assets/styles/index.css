@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "BlowBrush";
+  src: local("BlowBrush"),
+    url(".././font/blowbrush.ttf") format("truetype");
+}
+
+body {
+  background: rgb(132,126,137);
+  background: linear-gradient(90deg,rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(64,121,140,1) 100%);
+}
+
+.mainImage {
+  height: 400px;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background: rgb(132,126,137);
+    background: linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(64,121,140,1) 100%);
+  }
+}
