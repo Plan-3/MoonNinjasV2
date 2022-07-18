@@ -9,13 +9,29 @@ body {
   background: linear-gradient(90deg,rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(64,121,140,1) 100%);
 }
 
+.logo {
+  height: auto;
+  width: 50%;
+}
+
 .mainImage {
   height: 400px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 900px) {
   body {
     background: rgb(132,126,137);
     background: linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(64,121,140,1) 100%);
+  }
+
+  .logo {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 100%;
   }
 }
